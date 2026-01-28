@@ -9,5 +9,5 @@ terraform {
 
 # Configure the AWS Provider  us northern virginia
 provider "aws" {
-  region = "us-east-1" 
+  region = "eu-north-1" 
 }
