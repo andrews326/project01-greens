@@ -45,7 +45,7 @@ resource "aws_instance" "web" {
   }
 }
 resource "aws_instance" "web2" {
-  ami                    = "ami-0b6c6ebed2801a5cb" #change your ami value according to your aws instance 
+  ami                    = "ami-073130f74f5ffb161" #change your ami value according to your aws instance 
   instance_type          = "t3.medium"
   key_name               = "linux-server-kp"
   vpc_security_group_ids = [aws_security_group.Jenkins-sg.id]
